@@ -1,0 +1,9 @@
+Name,Id,Score
+Name,Id,Score,math
+"chen bowen",5,93.00,#
+"li bo",6,75.00,#
+"ming xincheng",2,80.00,#
+"xu zhezhao",1,100.00,#
+"yao yong",4,89.00,#
+"yi muyu",3,90.00,#
+math,Name,Id

@@ -1,0 +1,40 @@
+// 不区分大小写比较字符串：
+	char   string1[]   =   "abcdEF "; 
+	char   string2[]   =   "ABCdEf "; 
+	int   result; 
+	result   =   _stricmp(   string1,   string2   ); 
+
+	cout <<result <<endl;   // 0 
+
+// list 访问元素只能遍历
+  list<int> sortlist;
+    sortlist.push_back(3);
+    sortlist.push_back(15);
+    sortlist.push_back(8);
+    sortlist.push_back(7);
+    sortlist.sort();
+
+    list<int>::iterator iter = sortlist.begin();
+
+    for (int i=0; i<2; i++)
+        iter++;
+    cout << (*iter) << endl;  //8
+
+//string类不区分大小写比较
+C实现
+1.       使用stricmp(const char *p1,const char* p2)或strcmpi函数：
+strings1 = "Abc";
+strings2 = "abc";
+intresult = stricmp(s1.c_str(),s2.c_str());
+
+int 转 string类
+    char buf[10];
+    sprintf(buf, "%d", 100);
+    string b = buf;
+
+string转char
+const char *str = s1.c_str(); // ok
+
+char 转int
+atoi
+atof

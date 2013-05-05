@@ -1,0 +1,41 @@
+create database people1;
+create database people2;
+create database people3;
+create database people4;
+
+use people1;
+create table stu
+(
+	Name text,
+	Id int,
+);
+create table stu3();
+create table stu4();
+create table stu5();
+
+use people2;
+create table man
+(
+	Name text,
+	Id int,
+);
+create table man3();
+create table man2();
+
+Alter Table man add Score int;
+Alter Table man add Hight fLoat;
+alter table man drop column hiGht;
+alter table man Alter Column Score Float;
+
+insert into man values ('Xu ZheZhao',1, 100);
+insert into man values ('Ming Xincheng',2, 80);
+insert into man values ('Yao Yong',4, 89);
+insert into man values ('yi muyu',3, 90);
+insert into man values ('chen bowen',5, 93);
+insert into man values ('li bo',6, 75);
+alter table man Alter Column id Float;
+alter table man Alter Column id int;
+alter table man Alter Column Score int;
+
+Update man Set (name,id)=(huang, 9) Where score >90; 
+select * from man ; 

@@ -1,0 +1,8 @@
+#,4,89
+"Ming Xincheng",2,80
+huang,9,100
+huang,9,93
+"li bo",6,75
+"yi muyu",3,#
+man,man3,man2
+people1,people2,people3,people4

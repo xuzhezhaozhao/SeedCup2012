@@ -1,0 +1,9 @@
+create database people;
+use people;
+create table STU
+(
+	Name text,
+	ID int
+);
+
+show table order by;
