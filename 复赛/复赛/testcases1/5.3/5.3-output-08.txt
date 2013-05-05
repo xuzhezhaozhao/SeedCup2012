@@ -1,0 +1,2 @@
+line=10,error=3
+line=12,error=3

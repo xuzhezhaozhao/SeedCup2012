@@ -1,0 +1,42 @@
+﻿生成启动时间为 2012/11/15 22:56:25。
+     1>项目“D:\资料\SeedCup2012\复赛提交-xxx\Src\SeedCup2\SeedCup2\SeedCup2.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\SeedCup2.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt 5_6.cpp main.cpp
+         5_6.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\资料\SeedCup2012\复赛提交-xxx\Src\SeedCup2\Release\SeedCup2.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\SeedCup2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\资料\SeedCup2012\复赛提交-xxx\Src\SeedCup2\Release\SeedCup2.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\资料\SeedCup2012\复赛提交-xxx\Src\SeedCup2\Release\SeedCup2.lib" /MACHINE:X86 Release\5_1.obj
+         Release\5_2.obj
+         Release\5_3_1.obj
+         Release\5_3_2.obj
+         Release\5_3_3.obj
+         Release\5_3_4.obj
+         Release\5_4.obj
+         Release\5_5_1.obj
+         Release\5_5_2.obj
+         Release\5_5_3.obj
+         Release\5_5_4.obj
+         Release\5_6.obj
+         Release\5_7_1_Custom.obj
+         Release\5_7_2_Custom.obj
+         Release\auxiliary.obj
+         Release\display.obj
+         Release\initial.obj
+         Release\main.obj
+         Release\pickUp.obj
+         Release\strParse.obj
+         正在生成代码
+         已完成代码的生成
+         SeedCup2.vcxproj -> D:\资料\SeedCup2012\复赛提交-xxx\Src\SeedCup2\Release\SeedCup2.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\资料\SeedCup2012\复赛提交-xxx\Src\SeedCup2\Release\SeedCup2.exe;#1" /manifest Release\SeedCup2.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\SeedCup2.unsuccessfulbuild”。
+         正在对“Release\SeedCup2.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\资料\SeedCup2012\复赛提交-xxx\Src\SeedCup2\SeedCup2\SeedCup2.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.99
